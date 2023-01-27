@@ -1,0 +1,82 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+.content{
+    text-align: center;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    height: 93VH;
+    width: 100%;
+   
+
+}
+.coco{
+   
+    background-image: url(cta-bg.jpg);
+    padding: 100px 0px;
+     text-align: center;
+
+}
+.last{
+    background-image: url(cta-bg.jpg);
+    padding: 100px 0px;
+
+
+}
+.coco h2{
+   font-size: 30px;
+                text-transform: uppercase;
+                font-weight: 800;
+                color:black;
+                letter-spacing: 1px;
+                text-align: center;
+}
+.coco em{
+    font-style: normal;
+    color: #ed563b;
+}
+.content  h1{
+    font-weight: 600;
+   font-size: 100px;
+    color: #fff;
+    
+    
+    
+}
+.apple{
+    
+    font-size: 15px;
+    padding: 12px 20px;
+    background-color: #ed563b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+   
+}
+
+
+.content  a{
+    text-decoration: none;
+    display: inline-block;
+    font: size 24px ;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 400px;
+    background-color: #ed563b;
+
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+@media only screen and (max-width:720px) {
+    .back-video{
+        width: auto ;
+        height: 100%;
+    }
+
+}
